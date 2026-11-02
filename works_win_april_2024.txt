@@ -1,0 +1,366 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Apr 12 15:50:15 2024
+
+@author: russ
+"""
+
+Python 3.7.7 (default, May  6 2020, 11:45:54) [MSC v.1916 64 bit (AMD64)]
+Type "copyright", "credits" or "license" for more information.
+
+IPython 7.13.0 -- An enhanced Interactive Python.
+
+runfile('D:/Russ/0000/python00/python3/_projects/image_files/gui.py', wdir='D:/Russ/0000/python00/python3/_projects/image_files')
+
+
+======================================================================
+          ***    ATTENTION   ***
+This messaging protocol is deprecated. This module, and hence arg1
+messaging protocol, will be removed in v3.4 of PyPubSub. Please make
+the necessary changes to your code so that it no longer requires this
+module. The pypubsub documentation provides steps that may be useful
+to minimize the chance of introducing bugs in your application.
+======================================================================
+
+THEPROF
+C:\apps\Anaconda3\lib\site-packages\wx\lib\pubsub\__init__.py:25: wxPyDeprecationWarning: wx.lib.pubsub has been deprecated, plese migrate your code to use pypubsub, available on PyPI.
+  wx.wxPyDeprecationWarning)
+D:\Russ\0000\python00\python3\_projects\image_files\gui.py:268: wxPyDeprecationWarning: Call to deprecated item EmptyImage. Use :class:`Image` instead.
+  img = wx.EmptyImage(self.photoMaxSizeDn,self.photoMaxSizeDn )
+D:\Russ\0000\python00\python3\_projects\image_files\gui.py:270: wxPyDeprecationWarning: Call to deprecated item BitmapFromImage. Use :class:`wx.Bitmap` instead
+  wx.BitmapFromImage(img))
+D:\Russ\0000\python00\python3\_projects\image_files\gui.py:108: wxPyDeprecationWarning: Call to deprecated item. Use :meth:`AddTool` instead.
+  openTool        = self.toolbar.AddSimpleTool( wx.ID_ANY, open_ico, "Open an Image Directory", "Open an Image Directory" )
+D:\Russ\0000\python00\python3\_projects\image_files\gui.py:110: wxPyDeprecationWarning: Call to deprecated item. Use :meth:`AddTool` instead.
+  xxxTool        = self.toolbar.AddSimpleTool( wx.ID_ANY, x_ico, "xxxx", "xxx" )
+
+>>>>>>>>>>* Parameters (some) *<<<<<<<<<<<<
+   mode                         mode_default
+   logger_id                    image_edit
+   logging_level                10
+   --- appearance ---
+   xPosition                    10
+   yPosition                    10
+   photoMaxSizeAdj              600.0
+   viewers                      4
+   --- file name related  ---
+   and so much more....
+
+
+ix for viewers = 0
+ix for viewers = 1
+ix for viewers = 2
+ix for viewers = 3
+D:\Russ\0000\python00\python3\_projects\image_files\image_files.py:96: wxPyDeprecationWarning: Using deprecated class. Use Cursor instead.
+  self.waitCursor     = wx.StockCursor( wx.CURSOR_WAIT )
+D:\Russ\0000\python00\python3\_projects\image_files\gui.py:314: wxPyDeprecationWarning: Call to deprecated item BitmapFromImage. Use :class:`wx.Bitmap` instead
+  self.imageCtrl.SetBitmap( wx.BitmapFromImage(img) )
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+user opened folderPath D:\Russ\0000\python00\python3\_projects\smart_plug\images
+[]
+[]
+showIntImage 0
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+showIntImage 1
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+showIntImage 2
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+showIntImage 3
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+user opened folderPath D:\PhotosRaw\2024
+[]
+[]
+showIntImage 0
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+showIntImage 1
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+showIntImage 2
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+showIntImage 3
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+user opened folderPath D:\Russ\2023\jasmine
+[]
+[]
+showIntImage 0
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+showIntImage 1
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+showIntImage 2
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+showIntImage 3
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+user opened folderPath D:\PhotoDB\09
+['D:\\PhotoDB\\09\\DSC00954.JPG', 'D:\\PhotoDB\\09\\DSC00955.JPG', 'D:\\PhotoDB\\09\\Dsc00956.jpg', 'D:\\PhotoDB\\09\\Dsc00957.jpg', 'D:\\PhotoDB\\09\\DSC00958.JPG', 'D:\\PhotoDB\\09\\Dsc00959.jpg', 'D:\\PhotoDB\\09\\Dsc00960.jpg', 'D:\\PhotoDB\\09\\DSC00961.JPG', 'D:\\PhotoDB\\09\\Dsc00962.jpg', 'D:\\PhotoDB\\09\\DSC00963.JPG', 'D:\\PhotoDB\\09\\DSC00964.JPG', 'D:\\PhotoDB\\09\\DSC00965.JPG', 'D:\\PhotoDB\\09\\DSC00966.JPG', 'D:\\PhotoDB\\09\\DSC00967.JPG', 'D:\\PhotoDB\\09\\DSC00968.JPG', 'D:\\PhotoDB\\09\\DSC00969.JPG', 'D:\\PhotoDB\\09\\DSC00970.JPG', 'D:\\PhotoDB\\09\\DSC00971.JPG', 'D:\\PhotoDB\\09\\DSC00972.JPG', 'D:\\PhotoDB\\09\\DSC00973.JPG', 'D:\\PhotoDB\\09\\DSC00974.JPG', 'D:\\PhotoDB\\09\\DSC00975.JPG', 'D:\\PhotoDB\\09\\DSC00976.JPG', 'D:\\PhotoDB\\09\\DSC00977.JPG', 'D:\\PhotoDB\\09\\DSC00978.JPG', 'D:\\PhotoDB\\09\\DSC00979.JPG', 'D:\\PhotoDB\\09\\DSC00980.JPG', 'D:\\PhotoDB\\09\\DSC00981.JPG', 'D:\\PhotoDB\\09\\DSC00982.JPG', 'D:\\PhotoDB\\09\\DSC00983.JPG']
+[D:\PhotoDB\09\DSC00954.JPG  2865389,
+ D:\PhotoDB\09\DSC00955.JPG  2952013,
+ D:\PhotoDB\09\DSC00958.JPG  2999265,
+ D:\PhotoDB\09\DSC00961.JPG  2864630,
+ D:\PhotoDB\09\DSC00963.JPG  3101702,
+ D:\PhotoDB\09\DSC00964.JPG  2886704,
+ D:\PhotoDB\09\DSC00965.JPG  2868438,
+ D:\PhotoDB\09\DSC00966.JPG  3295985,
+ D:\PhotoDB\09\DSC00967.JPG  3229818,
+ D:\PhotoDB\09\DSC00968.JPG  3184551,
+ D:\PhotoDB\09\DSC00969.JPG  2837520,
+ D:\PhotoDB\09\DSC00970.JPG  3191501,
+ D:\PhotoDB\09\DSC00971.JPG  3121696,
+ D:\PhotoDB\09\DSC00972.JPG  3202368,
+ D:\PhotoDB\09\DSC00973.JPG  3264354,
+ D:\PhotoDB\09\DSC00974.JPG  3276868,
+ D:\PhotoDB\09\DSC00975.JPG  3302538,
+ D:\PhotoDB\09\DSC00976.JPG  3264998,
+ D:\PhotoDB\09\DSC00977.JPG  2893211,
+ D:\PhotoDB\09\DSC00978.JPG  3001168,
+ D:\PhotoDB\09\DSC00979.JPG  2908358,
+ D:\PhotoDB\09\DSC00980.JPG  2908224,
+ D:\PhotoDB\09\DSC00981.JPG  2985217,
+ D:\PhotoDB\09\DSC00982.JPG  3301486,
+ D:\PhotoDB\09\DSC00983.JPG  3019310,
+ D:\PhotoDB\09\Dsc00956.jpg  263525,
+ D:\PhotoDB\09\Dsc00957.jpg  323615,
+ D:\PhotoDB\09\Dsc00959.jpg  367120,
+ D:\PhotoDB\09\Dsc00960.jpg  393493,
+ D:\PhotoDB\09\Dsc00962.jpg  336368]
+showIntImage 0
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+Key: Image ImageDescription, value
+Key: Image Make, value SONY
+Key: Image Model, value DSC-W55
+Key: Image Orientation, value Horizontal (normal)
+Key: Image XResolution, value 72
+Key: Image YResolution, value 72
+Key: Image ResolutionUnit, value Pixels/Inch
+Key: Image DateTime, value 2009:05:02 19:20:25
+Key: Image YCbCrPositioning, value Co-sited
+Key: Image ExifOffset, value 256
+Key: Image PrintIM, value [80, 114, 105, 110, 116, 73, 77, 0, 48, 51, 48, 48, 0, 0, 2, 0, 2, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0]
+Key: Thumbnail Compression, value JPEG (old-style)
+Key: Thumbnail Make, value SONY
+Key: Thumbnail Model, value DSC-W55
+Key: Thumbnail Orientation, value Horizontal (normal)
+Key: Thumbnail XResolution, value 72
+Key: Thumbnail YResolution, value 72
+Key: Thumbnail ResolutionUnit, value Pixels/Inch
+Key: Thumbnail DateTime, value 2009:05:02 19:20:25
+Key: Thumbnail JPEGInterchangeFormat, value 2952
+Key: Thumbnail JPEGInterchangeFormatLength, value 17564
+Key: EXIF ExposureTime, value 1/50
+Key: EXIF FNumber, value 14/5
+Key: EXIF ExposureProgram, value Program Normal
+Key: EXIF ISOSpeedRatings, value 100
+Key: EXIF ExifVersion, value 0221
+Key: EXIF DateTimeOriginal, value 2009:05:02 19:20:25
+Key: EXIF DateTimeDigitized, value 2009:05:02 19:20:25
+Key: EXIF ComponentsConfiguration, value YCbCr
+Key: EXIF CompressedBitsPerPixel, value 4
+Key: EXIF ExposureBiasValue, value 0
+Key: EXIF MaxApertureValue, value 3
+Key: EXIF MeteringMode, value Pattern
+Key: EXIF LightSource, value Unknown
+Key: EXIF Flash, value Flash did not fire, compulsory flash mode
+Key: EXIF FocalLength, value 63/10
+Key: EXIF MakerNote, value [83, 79, 78, 89, 32, 68, 83, 67, 32, 0, 0, 0, 34, 0, 0, 32, 7, 0, 1, 0, ... ]
+Key: EXIF FlashPixVersion, value 0100
+Key: EXIF ColorSpace, value sRGB
+Key: EXIF ExifImageWidth, value 3072
+Key: EXIF ExifImageLength, value 2304
+Key: Interoperability InteroperabilityIndex, value R98
+Key: Interoperability InteroperabilityVersion, value [48, 49, 48, 48]
+Key: EXIF InteroperabilityOffset, value 2746
+Key: EXIF FileSource, value Digital Camera
+Key: EXIF SceneType, value Directly Photographed
+Key: EXIF CustomRendered, value Normal
+Key: EXIF ExposureMode, value Auto Exposure
+Key: EXIF WhiteBalance, value Auto
+Key: EXIF SceneCaptureType, value Standard
+Key: EXIF Contrast, value Normal
+Key: EXIF Saturation, value Normal
+Key: EXIF Sharpness, value Normal
+showIntImage 1
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+Key: Image ImageDescription, value
+Key: Image Make, value SONY
+Key: Image Model, value DSC-W55
+Key: Image Orientation, value Horizontal (normal)
+Key: Image XResolution, value 72
+Key: Image YResolution, value 72
+Key: Image ResolutionUnit, value Pixels/Inch
+Key: Image DateTime, value 2009:05:02 19:20:31
+Key: Image YCbCrPositioning, value Co-sited
+Key: Image ExifOffset, value 256
+Key: Image PrintIM, value [80, 114, 105, 110, 116, 73, 77, 0, 48, 51, 48, 48, 0, 0, 2, 0, 2, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0]
+Key: Thumbnail Compression, value JPEG (old-style)
+Key: Thumbnail Make, value SONY
+Key: Thumbnail Model, value DSC-W55
+Key: Thumbnail Orientation, value Horizontal (normal)
+Key: Thumbnail XResolution, value 72
+Key: Thumbnail YResolution, value 72
+Key: Thumbnail ResolutionUnit, value Pixels/Inch
+Key: Thumbnail DateTime, value 2009:05:02 19:20:31
+Key: Thumbnail JPEGInterchangeFormat, value 2952
+Key: Thumbnail JPEGInterchangeFormatLength, value 18011
+Key: EXIF ExposureTime, value 1/50
+Key: EXIF FNumber, value 14/5
+Key: EXIF ExposureProgram, value Program Normal
+Key: EXIF ISOSpeedRatings, value 100
+Key: EXIF ExifVersion, value 0221
+Key: EXIF DateTimeOriginal, value 2009:05:02 19:20:31
+Key: EXIF DateTimeDigitized, value 2009:05:02 19:20:31
+Key: EXIF ComponentsConfiguration, value YCbCr
+Key: EXIF CompressedBitsPerPixel, value 4
+Key: EXIF ExposureBiasValue, value 0
+Key: EXIF MaxApertureValue, value 3
+Key: EXIF MeteringMode, value Pattern
+Key: EXIF LightSource, value Unknown
+Key: EXIF Flash, value Flash did not fire, compulsory flash mode
+Key: EXIF FocalLength, value 63/10
+Key: EXIF MakerNote, value [83, 79, 78, 89, 32, 68, 83, 67, 32, 0, 0, 0, 34, 0, 0, 32, 7, 0, 1, 0, ... ]
+Key: EXIF FlashPixVersion, value 0100
+Key: EXIF ColorSpace, value sRGB
+Key: EXIF ExifImageWidth, value 3072
+Key: EXIF ExifImageLength, value 2304
+Key: Interoperability InteroperabilityIndex, value R98
+Key: Interoperability InteroperabilityVersion, value [48, 49, 48, 48]
+Key: EXIF InteroperabilityOffset, value 2746
+Key: EXIF FileSource, value Digital Camera
+Key: EXIF SceneType, value Directly Photographed
+Key: EXIF CustomRendered, value Normal
+Key: EXIF ExposureMode, value Auto Exposure
+Key: EXIF WhiteBalance, value Auto
+Key: EXIF SceneCaptureType, value Standard
+Key: EXIF Contrast, value Normal
+Key: EXIF Saturation, value Normal
+Key: EXIF Sharpness, value Normal
+showIntImage 2
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+Key: Image ImageDescription, value
+Key: Image Make, value SONY
+Key: Image Model, value DSC-W55
+Key: Image Orientation, value Horizontal (normal)
+Key: Image XResolution, value 72
+Key: Image YResolution, value 72
+Key: Image ResolutionUnit, value Pixels/Inch
+Key: Image DateTime, value 2009:05:02 19:21:19
+Key: Image YCbCrPositioning, value Co-sited
+Key: Image ExifOffset, value 256
+Key: Image PrintIM, value [80, 114, 105, 110, 116, 73, 77, 0, 48, 51, 48, 48, 0, 0, 2, 0, 2, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0]
+Key: Thumbnail Compression, value JPEG (old-style)
+Key: Thumbnail Make, value SONY
+Key: Thumbnail Model, value DSC-W55
+Key: Thumbnail Orientation, value Horizontal (normal)
+Key: Thumbnail XResolution, value 72
+Key: Thumbnail YResolution, value 72
+Key: Thumbnail ResolutionUnit, value Pixels/Inch
+Key: Thumbnail DateTime, value 2009:05:02 19:21:19
+Key: Thumbnail JPEGInterchangeFormat, value 2952
+Key: Thumbnail JPEGInterchangeFormatLength, value 17224
+Key: EXIF ExposureTime, value 1/40
+Key: EXIF FNumber, value 14/5
+Key: EXIF ExposureProgram, value Program Normal
+Key: EXIF ISOSpeedRatings, value 160
+Key: EXIF ExifVersion, value 0221
+Key: EXIF DateTimeOriginal, value 2009:05:02 19:21:19
+Key: EXIF DateTimeDigitized, value 2009:05:02 19:21:19
+Key: EXIF ComponentsConfiguration, value YCbCr
+Key: EXIF CompressedBitsPerPixel, value 4
+Key: EXIF ExposureBiasValue, value 0
+Key: EXIF MaxApertureValue, value 3
+Key: EXIF MeteringMode, value Pattern
+Key: EXIF LightSource, value Unknown
+Key: EXIF Flash, value Flash did not fire, compulsory flash mode
+Key: EXIF FocalLength, value 63/10
+Key: EXIF MakerNote, value [83, 79, 78, 89, 32, 68, 83, 67, 32, 0, 0, 0, 34, 0, 0, 32, 7, 0, 1, 0, ... ]
+Key: EXIF FlashPixVersion, value 0100
+Key: EXIF ColorSpace, value sRGB
+Key: EXIF ExifImageWidth, value 3072
+Key: EXIF ExifImageLength, value 2304
+Key: Interoperability InteroperabilityIndex, value R98
+Key: Interoperability InteroperabilityVersion, value [48, 49, 48, 48]
+Key: EXIF InteroperabilityOffset, value 2746
+Key: EXIF FileSource, value Digital Camera
+Key: EXIF SceneType, value Directly Photographed
+Key: EXIF CustomRendered, value Normal
+Key: EXIF ExposureMode, value Auto Exposure
+Key: EXIF WhiteBalance, value Auto
+Key: EXIF SceneCaptureType, value Standard
+Key: EXIF Contrast, value Normal
+Key: EXIF Saturation, value Normal
+Key: EXIF Sharpness, value Normal
+showIntImage 3
+
+readExif fileInfo.fullname = {fileInfo.fullname}
+Key: Image ImageDescription, value
+Key: Image Make, value SONY
+Key: Image Model, value DSC-W55
+Key: Image Orientation, value Horizontal (normal)
+Key: Image XResolution, value 72
+Key: Image YResolution, value 72
+Key: Image ResolutionUnit, value Pixels/Inch
+Key: Image DateTime, value 2009:05:02 19:27:25
+Key: Image YCbCrPositioning, value Co-sited
+Key: Image ExifOffset, value 256
+Key: Image PrintIM, value [80, 114, 105, 110, 116, 73, 77, 0, 48, 51, 48, 48, 0, 0, 2, 0, 2, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0]
+Key: Thumbnail Compression, value JPEG (old-style)
+Key: Thumbnail Make, value SONY
+Key: Thumbnail Model, value DSC-W55
+Key: Thumbnail Orientation, value Horizontal (normal)
+Key: Thumbnail XResolution, value 72
+Key: Thumbnail YResolution, value 72
+Key: Thumbnail ResolutionUnit, value Pixels/Inch
+Key: Thumbnail DateTime, value 2009:05:02 19:27:25
+Key: Thumbnail JPEGInterchangeFormat, value 2952
+Key: Thumbnail JPEGInterchangeFormatLength, value 16577
+Key: EXIF ExposureTime, value 1/40
+Key: EXIF FNumber, value 14/5
+Key: EXIF ExposureProgram, value Program Normal
+Key: EXIF ISOSpeedRatings, value 160
+Key: EXIF ExifVersion, value 0221
+Key: EXIF DateTimeOriginal, value 2009:05:02 19:27:25
+Key: EXIF DateTimeDigitized, value 2009:05:02 19:27:25
+Key: EXIF ComponentsConfiguration, value YCbCr
+Key: EXIF CompressedBitsPerPixel, value 4
+Key: EXIF ExposureBiasValue, value 0
+Key: EXIF MaxApertureValue, value 3
+Key: EXIF MeteringMode, value Pattern
+Key: EXIF LightSource, value Unknown
+Key: EXIF Flash, value Flash did not fire, compulsory flash mode
+Key: EXIF FocalLength, value 63/10
+Key: EXIF MakerNote, value [83, 79, 78, 89, 32, 68, 83, 67, 32, 0, 0, 0, 34, 0, 0, 32, 7, 0, 1, 0, ... ]
+Key: EXIF FlashPixVersion, value 0100
+Key: EXIF ColorSpace, value sRGB
+Key: EXIF ExifImageWidth, value 3072
+Key: EXIF ExifImageLength, value 2304
+Key: Interoperability InteroperabilityIndex, value R98
+Key: Interoperability InteroperabilityVersion, value [48, 49, 48, 48]
+Key: EXIF InteroperabilityOffset, value 2746
+Key: EXIF FileSource, value Digital Camera
+Key: EXIF SceneType, value Directly Photographed
+Key: EXIF CustomRendered, value Normal
+Key: EXIF ExposureMode, value Auto Exposure
+Key: EXIF WhiteBalance, value Auto
+Key: EXIF SceneCaptureType, value Standard
+Key: EXIF Contrast, value Normal
+Key: EXIF Saturation, value Normal
+Key: EXIF Sharpness, value Normal

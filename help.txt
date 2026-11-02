@@ -1,0 +1,1 @@
+this is help.txt for the image triage application ( old name image_files or image_edit )

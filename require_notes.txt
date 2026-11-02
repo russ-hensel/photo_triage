@@ -1,0 +1,5 @@
+technical info for the image triage application
+
+
+
+uv pip install pypubsub
